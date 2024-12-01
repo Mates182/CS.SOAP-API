@@ -1,3 +1,6 @@
+using CsSoapApi.BusinessLogic;
+using SoapCore;
+
 namespace CsSoapApi
 {
     public class Program
@@ -5,6 +8,9 @@ namespace CsSoapApi
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddSoapCore();
+            builder.Services.AddScoped<ISoapService, SoapService>();
 
             // Add services to the container.
             builder.Services.AddRazorPages();
