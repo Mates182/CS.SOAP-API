@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CsSoapApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df7f07cb36b147a0efa491f8c24cf2e8b09fabbb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22e26f23865bafb2af820f442132327ad33ca5b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("CsSoapApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CsSoapApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
